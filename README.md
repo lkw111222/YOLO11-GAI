@@ -16,6 +16,25 @@ git clone https://github.com/lkw111222/YOLO11-GAI
 cd YOLO11-GAI
 pip install -r requirements.txt
 
+# Project Structure
+YOLO11-GAI/
+├── train.py             # 模型训练主脚本（核心）
+├── val.py               # 模型验证脚本
+├── FPS.py               # 模型推理速度测试脚本
+├── yolo11gai.yaml       # 自定义模型配置文件
+├── yolov11n.pt          # 预训练权重文件
+├── sine.yaml            # 数据集配置文件
+├── README.md            # 项目说明文档
+└── runs/                # 训练结果输出目录（自动生成）
+    └── train/           # 训练日志、权重、指标文件
+└── sine/                # 数据集
+    └── images/          # 数据集图像存放目录
+        └── train/       # 训练集图像存放目录
+        └── val/         # 验证集图像存放目录
+    └── labels/          # label存放目录
+        └── train/       # 训练集图像对应label存放目录
+        └── val/         # 验证集图像对应label存放目录
+
 # Acknowledgements
 We sincerely thank the outstanding Ultralytics team for their tremendous support of the models we developed in YOLO11-GAI.
 We also extend our gratitude to all other contributors of the Ultralytics platform team, who have contributed such impressive models to the community.
