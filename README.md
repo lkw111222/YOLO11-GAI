@@ -18,23 +18,22 @@ pip install -r requirements.txt
 
 # Project Structure
 YOLO11-GAI/
-├── train.py             # 模型训练主脚本（核心）
-├── val.py               # 模型验证脚本
+├── train.py             # Main Script for Model Training (Core)
+├── val.py               # Model Validation Script
 ├── FPS.py               # 模型推理速度测试脚本
-├── yolo11gai.yaml       # 自定义模型配置文件
-├── yolov11n.pt          # 预训练权重文件
-├── sine.yaml            # 数据集配置文件
-├── README.md            # 项目说明文档
-└── runs/                # 训练结果输出目录（自动生成）
-    └── train/           # 训练日志、权重、指标文件
-└── sine/                # 数据集
-    └── images/          # 数据集图像存放目录
-        └── train/       # 训练集图像存放目录
-        └── val/         # 验证集图像存放目录
-    └── labels/          # label存放目录
-        └── train/       # 训练集图像对应label存放目录
-        └── val/         # 验证集图像对应label存放目录
-
+├── yolo11gai.yaml       # Model Inference Speed Testing Script
+├── yolov11n.pt          # Pre-trained weight file
+├── sine.yaml            # Dataset Configuration File
+├── README.md            # Project Specification Document
+└── runs/                # Training Results Output Directory (Automatically Generated)
+    └── train/           # Training logs, weights, and metric files
+└── sine/                # Dataset
+    └── images/          # Dataset Image Storage Directory
+        └── train/       # Training set image storage directory
+        └── val/         # Validation set image storage directory
+    └── labels/          # Label Storage Directory
+        └── train/       # Directory for storing labels corresponding to training set images
+        └── val/         # Directory for storing labels corresponding to validation set images
 # Acknowledgements
 We sincerely thank the outstanding Ultralytics team for their tremendous support of the models we developed in YOLO11-GAI.
 We also extend our gratitude to all other contributors of the Ultralytics platform team, who have contributed such impressive models to the community.
