@@ -14,7 +14,6 @@ For other installation methods, please refer to the Quick Start Guide and the co
 # Prepraration
 git clone https://github.com/lkw111222/YOLO11-GAI
 cd YOLO11-GAI
-pip install -r requirements.txt
 
 # Project Structure
 YOLO11-GAI/
@@ -30,8 +29,6 @@ YOLO11-GAI/
 ├── yolov11n.pt          # Pre-trained weight file
 
 ├── sine.yaml            # Dataset Configuration File
-
-├── README.md            # Project Specification Document
 
 └── runs/                # Training Results Output Directory (Automatically Generated)  
     └── train/           # Training logs, weights, and metric files
