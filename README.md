@@ -34,11 +34,9 @@ YOLO11-GAI/
 ├── README.md            # Project Specification Document
 
 └── runs/                # Training Results Output Directory (Automatically Generated)
-
     └── train/           # Training logs, weights, and metric files
     
 └── sine/                # Dataset
-
     └── images/          # Dataset Image Storage Directory
     
         └── train/       # Training set image storage directory
