@@ -18,6 +18,7 @@ pip install -r requirements.txt
 
 # Project Structure
 YOLO11-GAI/
+
 ├── train.py             # Main Script for Model Training (Core)
 
 ├── val.py               # Model Validation Script
@@ -31,17 +32,25 @@ YOLO11-GAI/
 ├── sine.yaml            # Dataset Configuration File
 
 ├── README.md            # Project Specification Document
+
 └── runs/                # Training Results Output Directory (Automatically Generated)
+
     └── train/           # Training logs, weights, and metric files
+    
 └── sine/                # Dataset
+
     └── images/          # Dataset Image Storage Directory
+    
         └── train/       # Training set image storage directory
         
         └── val/         # Validation set image storage directory
         
     └── labels/          # Label Storage Directory
+    
         └── train/       # Directory for storing labels corresponding to training set images
+        
         └── val/         # Directory for storing labels corresponding to validation set images
+
 # Acknowledgements
 We sincerely thank the outstanding Ultralytics team for their tremendous support of the models we developed in YOLO11-GAI.
 We also extend our gratitude to all other contributors of the Ultralytics platform team, who have contributed such impressive models to the community.
