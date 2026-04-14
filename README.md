@@ -19,18 +19,26 @@ pip install -r requirements.txt
 # Project Structure
 YOLO11-GAI/
 ├── train.py             # Main Script for Model Training (Core)
+
 ├── val.py               # Model Validation Script
-├── FPS.py               # 模型推理速度测试脚本
+
+├── FPS.py               # Model Inference Speed Test Script
+
 ├── yolo11gai.yaml       # Model Inference Speed Testing Script
+
 ├── yolov11n.pt          # Pre-trained weight file
+
 ├── sine.yaml            # Dataset Configuration File
+
 ├── README.md            # Project Specification Document
 └── runs/                # Training Results Output Directory (Automatically Generated)
     └── train/           # Training logs, weights, and metric files
 └── sine/                # Dataset
     └── images/          # Dataset Image Storage Directory
         └── train/       # Training set image storage directory
+        
         └── val/         # Validation set image storage directory
+        
     └── labels/          # Label Storage Directory
         └── train/       # Directory for storing labels corresponding to training set images
         └── val/         # Directory for storing labels corresponding to validation set images
